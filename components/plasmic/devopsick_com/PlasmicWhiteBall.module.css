@@ -1,0 +1,8 @@
+.root:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+  display: block;
+  flex-direction: column;
+  transform: translateX(0px) translateY(250px) translateZ(0px);
+  position: relative;
+}
