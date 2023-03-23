@@ -36,15 +36,41 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import { Embed } from "@plasmicpkgs/plasmic-basic-components"; // plasmic-import: PKldDYkH42/codeComponent
+import StarsBackend2 from "../../StarsBackend2"; // plasmic-import: hSfSvIyAAK/component
+import HackerBlack from "../../HackerBlack"; // plasmic-import: 10FdlBYDeF/component
 import WhiteBall from "../../WhiteBall"; // plasmic-import: 6AWtVhh-Wd/component
+import AstronautHello from "../../AstronautHello"; // plasmic-import: whhsKMSBTO/component
+import ResearchMarketing from "../../ResearchMarketing"; // plasmic-import: tBvU3WZC4z/component
+import EyeMarketing from "../../EyeMarketing"; // plasmic-import: IYs4S8surL/component
+import AstronautMeditation from "../../AstronautMeditation"; // plasmic-import: D1vcmOGPyK/component
+import AstronautStars from "../../AstronautStars"; // plasmic-import: sy_h8jTU0C/component
+import AstronautMoon from "../../AstronautMoon"; // plasmic-import: ARTIb8ebZR/component
+import AstronautWithRocket from "../../AstronautWithRocket"; // plasmic-import: JcClX0fByS/component
+import AstronautComputer from "../../AstronautComputer"; // plasmic-import: Cnnni4YIL2/component
+import AstronautVLike from "../../AstronautVLike"; // plasmic-import: FZeSYrpBP_/component
+import AstronautOnRocket from "../../AstronautOnRocket"; // plasmic-import: vy45ulpWo2/component
+import Button from "../../Button"; // plasmic-import: v4YuLx5wo-y/component
+
+import { useScreenVariants as useScreenVariantswAaUtABEy9FF } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: wAaUT_aBEy9fF/globalVariant
 
 import "@plasmicapp/react-web/lib/plasmic.css";
 
 import projectcss from "./plasmic_devopsick_com.module.css"; // plasmic-import: cdtVU2aoa983eSNLcnPTCH/projectcss
 import sty from "./PlasmicHomepage.module.css"; // plasmic-import: xhiu32pnNaNx/css
 
-import Icon14Icon from "./icons/PlasmicIcon__Icon14"; // plasmic-import: 4ykfxNS0iVW/icon
+import ResearchSvgrepoComsvgIcon from "./icons/PlasmicIcon__ResearchSvgrepoComsvg"; // plasmic-import: piVZgJEwju/icon
+import DataAnalysisInterfaceSymbolOfAMonitorWithABarsGraphicWithAMagnifierSvgrepoComsvgIcon from "./icons/PlasmicIcon__DataAnalysisInterfaceSymbolOfAMonitorWithABarsGraphicWithAMagnifierSvgrepoComsvg"; // plasmic-import: JzyK3VPeiX/icon
+import BusinessFlowchatGraphSvgrepoComsvgIcon from "./icons/PlasmicIcon__BusinessFlowchatGraphSvgrepoComsvg"; // plasmic-import: fro1T5c8T9/icon
+import StrategyPlanningPrSvgrepoComsvgIcon from "./icons/PlasmicIcon__StrategyPlanningPrSvgrepoComsvg"; // plasmic-import: acgqALQlAV/icon
+import DesignEducationPaintingSvgrepoComsvgIcon from "./icons/PlasmicIcon__DesignEducationPaintingSvgrepoComsvg"; // plasmic-import: fIFysn4DLQ/icon
+import WindowDevToolsSvgrepoCom1SvgIcon from "./icons/PlasmicIcon__WindowDevToolsSvgrepoCom1Svg"; // plasmic-import: setzvz-Nz3/icon
+import ServerShieldSvgrepoComsvgIcon from "./icons/PlasmicIcon__ServerShieldSvgrepoComsvg"; // plasmic-import: yOCWvqqlBF/icon
+import MarketingAdvertisingSvgrepoComsvgIcon from "./icons/PlasmicIcon__MarketingAdvertisingSvgrepoComsvg"; // plasmic-import: oavS0FEkMY/icon
+import ChecksvgIcon from "./icons/PlasmicIcon__Checksvg"; // plasmic-import: 2_2NrvlSmbS/icon
+import Icon2Icon from "./icons/PlasmicIcon__Icon2"; // plasmic-import: 3vNcX22TxHe/icon
+import Icon3Icon from "./icons/PlasmicIcon__Icon3"; // plasmic-import: oFcX_pfmKQX/icon
+import Icon4Icon from "./icons/PlasmicIcon__Icon4"; // plasmic-import: QnGyV5vxsJr/icon
+import Icon28Icon from "./icons/PlasmicIcon__Icon28"; // plasmic-import: 0m0OeGMDdZr/icon
 
 export type PlasmicHomepage__VariantMembers = {};
 export type PlasmicHomepage__VariantsArgs = {};
@@ -57,10 +83,28 @@ export const PlasmicHomepage__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicHomepage__OverridesType = {
   root?: p.Flex<"div">;
-  embedHtml?: p.Flex<typeof Embed>;
   section?: p.Flex<"section">;
   h1?: p.Flex<"h1">;
-  whiteBall?: p.Flex<typeof WhiteBall>;
+  hackerBlack?: p.Flex<typeof HackerBlack>;
+  brandStrategyDevopsickcom3?: p.Flex<"svg">;
+  dataAnalysisDevopsickcom?: p.Flex<"svg">;
+  businessConsultingDevopsickcom?: p.Flex<"svg">;
+  brandStrategyDevopsickcom2?: p.Flex<"svg">;
+  contentCreationDevopsickcom?: p.Flex<"svg">;
+  webDevelopmentDevopsickcom?: p.Flex<"svg">;
+  brandStrategyDevopsickcom?: p.Flex<"svg">;
+  digitalMarketingDevopscikcom?: p.Flex<"svg">;
+  astronautHello?: p.Flex<typeof AstronautHello>;
+  researchMarketing?: p.Flex<typeof ResearchMarketing>;
+  eyeMarketing?: p.Flex<typeof EyeMarketing>;
+  astronautMeditation?: p.Flex<typeof AstronautMeditation>;
+  astronautStars?: p.Flex<typeof AstronautStars>;
+  astronautMoon?: p.Flex<typeof AstronautMoon>;
+  astronautWithRocket?: p.Flex<typeof AstronautWithRocket>;
+  astronautComputer?: p.Flex<typeof AstronautComputer>;
+  astronautVLike?: p.Flex<typeof AstronautVLike>;
+  astronautOnRocket?: p.Flex<typeof AstronautOnRocket>;
+  columns?: p.Flex<"div">;
 };
 
 export interface DefaultHomepageProps {}
@@ -102,6 +146,10 @@ function PlasmicHomepage__RenderFunc(props: {
   const currentUser = p.useCurrentUser?.() || {};
   const [$queries, setDollarQueries] = React.useState({});
 
+  const globalVariants = ensureGlobalVariants({
+    screen: useScreenVariantswAaUtABEy9FF()
+  });
+
   return (
     <React.Fragment>
       <Head></Head>
@@ -127,15 +175,11 @@ function PlasmicHomepage__RenderFunc(props: {
             "" as const
           )}
         >
-          <Embed
-            data-plasmic-name={"embedHtml"}
-            data-plasmic-override={overrides.embedHtml}
-            className={classNames("__wab_instance", sty.embedHtml)}
-            code={
-              '<div class="html1">\r\n<div id="stars5"></div>\r\n<div id="stars6"></div>\r\n  <div id="stars7"></div></div>' as const
-            }
-          />
-
+          {true ? (
+            <StarsBackend2
+              className={classNames("__wab_instance", sty.starsBackend2__prFie)}
+            />
+          ) : null}
           <p.Stack
             as={"section"}
             data-plasmic-name={"section"}
@@ -156,266 +200,748 @@ function PlasmicHomepage__RenderFunc(props: {
             >
               {"DevOpSick"}
             </h1>
-
-            <div
+            {true ? (
+              <HackerBlack
+                data-plasmic-name={"hackerBlack"}
+                data-plasmic-override={overrides.hackerBlack}
+                className={classNames("__wab_instance", sty.hackerBlack)}
+              />
+            ) : null}
+            <h3
               className={classNames(
                 projectcss.all,
+                projectcss.h3,
                 projectcss.__wab_text,
-                sty.text___3T4IP
+                sty.h3__qgndJ,
+                "" as const
               )}
             >
-              <React.Fragment>
-                <React.Fragment>
-                  {
-                    "If you haven't already done so, go back and learn the basics by going through the Plasmic Levels tutorial.\n\nIt's always easier to start from examples! Add a new page using a template—do this from the list of pages in the top left (the gray + button).\n\nOr press the big blue + button to start dragging items into this page.\n\nIntegrate this project into your codebase—press the "
-                  }
-                </React.Fragment>
-                <span
-                  className={"plasmic_default__all plasmic_default__span"}
-                  style={{ fontWeight: 700 }}
-                >
-                  {"Code"}
-                </span>
-                <React.Fragment>
-                  {
-                    " button in the top right and follow the quickstart instructions.\n\nJoin our Slack community (icon in bottom left) for help any time."
-                  }
-                </React.Fragment>
-              </React.Fragment>
-            </div>
-
+              {
+                "Проект де Ваші мрії та ідеї реалізуються в високоякісний продукт"
+              }
+            </h3>
+          </p.Stack>
+          {true ? (
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(projectcss.all, sty.freeBox__v5Cg7)}
+              className={classNames(
+                projectcss.all,
+                sty.freeBox__v5Cg7,
+                "" as const
+              )}
             >
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.freeBox__gedW7)}
+              <h2
+                className={classNames(
+                  projectcss.all,
+                  projectcss.h2,
+                  projectcss.__wab_text,
+                  sty.h2__jyeTy,
+                  "textionalty" as const
+                )}
               >
-                {true ? (
+                {"Маркетингові Послуги"}
+              </h2>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  sty.freeBox__wjsQ0,
+                  hasVariant(globalVariants, "screen", "mobileOnly")
+                    ? ("" as const)
+                    : ("" as const)
+                )}
+              >
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(
+                    projectcss.all,
+                    sty.freeBox__uUwa,
+                    "root" as const
+                  )}
+                >
+                  {true ? (
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        sty.freeBox__puVoh,
+                        "" as const
+                      )}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__gVfQ5
+                        )}
+                      >
+                        <ResearchSvgrepoComsvgIcon
+                          data-plasmic-name={"brandStrategyDevopsickcom3"}
+                          data-plasmic-override={
+                            overrides.brandStrategyDevopsickcom3
+                          }
+                          className={classNames(
+                            projectcss.all,
+                            sty.brandStrategyDevopsickcom3,
+                            "lineback" as const
+                          )}
+                          role={"img"}
+                        />
+                      </div>
+                    </div>
+                  ) : null}
                   <div
-                    className={classNames(projectcss.all, sty.freeBox__hFyEd)}
+                    className={classNames(projectcss.all, sty.freeBox__fhPcH)}
                   >
                     <div
-                      className={classNames(projectcss.all, sty.freeBox__chOkv)}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__wfXc7
+                      )}
                     >
-                      <Icon14Icon
-                        className={classNames(projectcss.all, sty.svg__eEtZa)}
-                        role={"img"}
-                      />
+                      <React.Fragment>
+                        <React.Fragment>{""}</React.Fragment>
+                        {
+                          <h6
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.h6,
+                              projectcss.__wab_text,
+                              sty.h6__qyUv
+                            )}
+                          >
+                            {"RESEARCH MARKETING"}
+                          </h6>
+                        }
+                        <React.Fragment>{""}</React.Fragment>
+                      </React.Fragment>
                     </div>
                   </div>
-                ) : null}
-
-                <div className={classNames(projectcss.all, sty.freeBox__dbvSb)}>
                   <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__mq2KA
-                    )}
+                    className={classNames(projectcss.all, sty.freeBox__wrQl8)}
                   >
-                    {"Simple"}
+                    <h5
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h5,
+                        projectcss.__wab_text,
+                        sty.h5__yBBs
+                      )}
+                    >
+                      {
+                        "- Цінна інформація\n- орієнтованість на клієнта\n- Цільова лідогенерація\n- Прогнози\n- Конкурентна перевага\n- Фокус-групи\n- Індивідуальне інтерв'ю\n- Етнографічні дослідження"
+                      }
+                    </h5>
                   </div>
-                </div>
-
-                <div className={classNames(projectcss.all, sty.freeBox__bt2Bb)}>
+                </p.Stack>
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(
+                    projectcss.all,
+                    sty.freeBox__tIfIh,
+                    "root" as const
+                  )}
+                >
+                  {true ? (
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        sty.freeBox__bUhXo,
+                        "" as const
+                      )}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__cmlOx
+                        )}
+                      >
+                        <DataAnalysisInterfaceSymbolOfAMonitorWithABarsGraphicWithAMagnifierSvgrepoComsvgIcon
+                          data-plasmic-name={"dataAnalysisDevopsickcom"}
+                          data-plasmic-override={
+                            overrides.dataAnalysisDevopsickcom
+                          }
+                          className={classNames(
+                            projectcss.all,
+                            sty.dataAnalysisDevopsickcom
+                          )}
+                          role={"img"}
+                        />
+                      </div>
+                    </div>
+                  ) : null}
                   <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__wDGp
-                    )}
-                  >
-                    {"These items are in a horizontal stack."}
-                  </div>
-                </div>
-              </p.Stack>
-
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.freeBox___2CYhN)}
-              >
-                {true ? (
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__gQch3)}
+                    className={classNames(projectcss.all, sty.freeBox__oUci)}
                   >
                     <div
-                      className={classNames(projectcss.all, sty.freeBox__tRiQg)}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__raeZh
+                      )}
                     >
-                      <Icon14Icon
-                        className={classNames(projectcss.all, sty.svg__vkAoL)}
-                        role={"img"}
-                      />
+                      <React.Fragment>
+                        <React.Fragment>{""}</React.Fragment>
+                        {
+                          <h6
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.h6,
+                              projectcss.__wab_text,
+                              sty.h6__ictgG
+                            )}
+                          >
+                            {"DATA ANALYTICS"}
+                          </h6>
+                        }
+                        <React.Fragment>{""}</React.Fragment>
+                      </React.Fragment>
                     </div>
                   </div>
-                ) : null}
-
-                <div className={classNames(projectcss.all, sty.freeBox__umA0T)}>
                   <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___2UsO0
-                    )}
+                    className={classNames(projectcss.all, sty.freeBox__w8I3Y)}
                   >
-                    {"Blazing fast"}
+                    <h5
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h5,
+                        projectcss.__wab_text,
+                        sty.h5__j9QEl
+                      )}
+                    >
+                      {
+                        "- Обслуговування бази даних\n- Розпізнавання точок даних\n- Безпека бази даних\n- Демографічні дослідження\n- Цільової маркетинг\n- Розпізнавання даних"
+                      }
+                    </h5>
                   </div>
-                </div>
-
-                <div className={classNames(projectcss.all, sty.freeBox__i6Tmz)}>
+                </p.Stack>
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(
+                    projectcss.all,
+                    sty.freeBox__lMb9V,
+                    "root" as const
+                  )}
+                >
+                  {true ? (
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        sty.freeBox__xHxZ7,
+                        "" as const
+                      )}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__njE34
+                        )}
+                      >
+                        <BusinessFlowchatGraphSvgrepoComsvgIcon
+                          data-plasmic-name={"businessConsultingDevopsickcom"}
+                          data-plasmic-override={
+                            overrides.businessConsultingDevopsickcom
+                          }
+                          className={classNames(
+                            projectcss.all,
+                            sty.businessConsultingDevopsickcom
+                          )}
+                          role={"img"}
+                        />
+                      </div>
+                    </div>
+                  ) : null}
                   <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___77Ur7
-                    )}
-                  >
-                    {"It has wrapping enabled."}
-                  </div>
-                </div>
-              </p.Stack>
-
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.freeBox__fQkCq)}
-              >
-                {true ? (
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__st4Xu)}
+                    className={classNames(projectcss.all, sty.freeBox__omWm)}
                   >
                     <div
-                      className={classNames(projectcss.all, sty.freeBox__xGwA)}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text___2SvLh
+                      )}
                     >
-                      <Icon14Icon
-                        className={classNames(projectcss.all, sty.svg__wpCPf)}
-                        role={"img"}
-                      />
+                      <React.Fragment>
+                        <React.Fragment>{""}</React.Fragment>
+                        {
+                          <h6
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.h6,
+                              projectcss.__wab_text,
+                              sty.h6__fmrsY
+                            )}
+                          >
+                            {"BUSINESS CONSULTING"}
+                          </h6>
+                        }
+                        <React.Fragment>{""}</React.Fragment>
+                      </React.Fragment>
                     </div>
                   </div>
-                ) : null}
-
-                <div className={classNames(projectcss.all, sty.freeBox__w5Yb7)}>
                   <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__zdkPk
-                    )}
+                    className={classNames(projectcss.all, sty.freeBox__rxDzl)}
                   >
-                    {"Collaborative"}
+                    <h5
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h5,
+                        projectcss.__wab_text,
+                        sty.h5__iEqY
+                      )}
+                    >
+                      {
+                        "- Планування бізнесу\n- Консультування по масштабуванню\n- Інтернет-бізнес\n- Цифрова бізнес-грамотність\n- Електронна комерція"
+                      }
+                    </h5>
                   </div>
-                </div>
-
-                <div className={classNames(projectcss.all, sty.freeBox__qOUs)}>
+                </p.Stack>
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(
+                    projectcss.all,
+                    sty.freeBox___881E,
+                    "root" as const
+                  )}
+                >
+                  {true ? (
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        sty.freeBox___1T9DV,
+                        "" as const
+                      )}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__adScI
+                        )}
+                      >
+                        <StrategyPlanningPrSvgrepoComsvgIcon
+                          data-plasmic-name={"brandStrategyDevopsickcom2"}
+                          data-plasmic-override={
+                            overrides.brandStrategyDevopsickcom2
+                          }
+                          className={classNames(
+                            projectcss.all,
+                            sty.brandStrategyDevopsickcom2,
+                            "lineback" as const
+                          )}
+                          role={"img"}
+                        />
+                      </div>
+                    </div>
+                  ) : null}
                   <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__dfJRv
-                    )}
-                  >
-                    {"It also has a max width."}
-                  </div>
-                </div>
-              </p.Stack>
-
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.freeBox__yVVjA)}
-              >
-                {true ? (
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__kqtvl)}
+                    className={classNames(projectcss.all, sty.freeBox__udFmm)}
                   >
                     <div
-                      className={classNames(projectcss.all, sty.freeBox__ywt8L)}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__fnsK
+                      )}
                     >
-                      <Icon14Icon
-                        className={classNames(projectcss.all, sty.svg__x9QZt)}
-                        role={"img"}
-                      />
+                      <React.Fragment>
+                        <React.Fragment>{""}</React.Fragment>
+                        {
+                          <h6
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.h6,
+                              projectcss.__wab_text,
+                              sty.h6__mm7Hn
+                            )}
+                          >
+                            {"BRAND STRATEGY"}
+                          </h6>
+                        }
+                        <React.Fragment>{""}</React.Fragment>
+                      </React.Fragment>
                     </div>
                   </div>
-                ) : null}
-
-                <div className={classNames(projectcss.all, sty.freeBox__hqYpc)}>
                   <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___9ZyMn
-                    )}
+                    className={classNames(projectcss.all, sty.freeBox__zvNpH)}
                   >
-                    {"Powerful"}
+                    <h5
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h5,
+                        projectcss.__wab_text,
+                        sty.h5__enMcv
+                      )}
+                    >
+                      {
+                        "- Стратегічний аналіз і звітність\n- Логотип і візуальний брендинг\n- Ребрендінг\n- Методології аудиту\n- Оцінка аудиторії\n- Кампанії по активації продукту"
+                      }
+                    </h5>
                   </div>
-                </div>
-
-                <div className={classNames(projectcss.all, sty.freeBox__lQEkL)}>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__w1AGn
-                    )}
-                  >
-                    {"Each card is a fixed width."}
-                  </div>
-                </div>
-              </p.Stack>
-
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.freeBox___6Vk2H)}
+                </p.Stack>
+              </div>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  sty.freeBox__dnQvf,
+                  hasVariant(globalVariants, "screen", "mobileOnly")
+                    ? ("" as const)
+                    : ("" as const)
+                )}
               >
-                {true ? (
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(
+                    projectcss.all,
+                    sty.freeBox__z4Phu,
+                    "root" as const
+                  )}
+                >
+                  {true ? (
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        sty.freeBox__oHup,
+                        "" as const
+                      )}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox___73IAp
+                        )}
+                      >
+                        <DesignEducationPaintingSvgrepoComsvgIcon
+                          data-plasmic-name={"contentCreationDevopsickcom"}
+                          data-plasmic-override={
+                            overrides.contentCreationDevopsickcom
+                          }
+                          className={classNames(
+                            projectcss.all,
+                            sty.contentCreationDevopsickcom
+                          )}
+                          role={"img"}
+                        />
+                      </div>
+                    </div>
+                  ) : null}
                   <div
-                    className={classNames(projectcss.all, sty.freeBox__pDrBu)}
+                    className={classNames(projectcss.all, sty.freeBox___9N2Y)}
                   >
                     <div
-                      className={classNames(projectcss.all, sty.freeBox__oagRo)}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__j94Nq
+                      )}
                     >
-                      <Icon14Icon
-                        className={classNames(projectcss.all, sty.svg__jCKsH)}
-                        role={"img"}
-                      />
+                      <React.Fragment>
+                        <React.Fragment>{""}</React.Fragment>
+                        {
+                          <h6
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.h6,
+                              projectcss.__wab_text,
+                              sty.h6__eTwn7
+                            )}
+                          >
+                            {"CONTENT CREATION"}
+                          </h6>
+                        }
+                        <React.Fragment>{""}</React.Fragment>
+                      </React.Fragment>
                     </div>
                   </div>
-                ) : null}
-
-                <div className={classNames(projectcss.all, sty.freeBox__u5Onu)}>
                   <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__uiBgp
-                    )}
+                    className={classNames(projectcss.all, sty.freeBox__w2Pmq)}
                   >
-                    {"Enterprise-ready"}
+                    <h5
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h5,
+                        projectcss.__wab_text,
+                        sty.h5___1Zj2W
+                      )}
+                    >
+                      {
+                        "- Блоги\n- Копірайтинг\n- Содержимое веб-сторінки\n- Повідомлення в соціальних мережах\n- Портфоліо\n- Копірайтинг і створення контенту\n- Маркетинг продукції"
+                      }
+                    </h5>
                   </div>
-                </div>
-
-                <div className={classNames(projectcss.all, sty.freeBox__xLKq3)}>
+                </p.Stack>
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(
+                    projectcss.all,
+                    sty.freeBox__wrUjb,
+                    "root" as const
+                  )}
+                >
+                  {true ? (
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        sty.freeBox___2NGnW,
+                        "" as const
+                      )}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__l9WyH
+                        )}
+                      >
+                        <WindowDevToolsSvgrepoCom1SvgIcon
+                          data-plasmic-name={"webDevelopmentDevopsickcom"}
+                          data-plasmic-override={
+                            overrides.webDevelopmentDevopsickcom
+                          }
+                          className={classNames(
+                            projectcss.all,
+                            sty.webDevelopmentDevopsickcom,
+                            "lineback" as const
+                          )}
+                          role={"img"}
+                        />
+                      </div>
+                    </div>
+                  ) : null}
                   <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__sub5T
-                    )}
+                    className={classNames(projectcss.all, sty.freeBox__mUVy3)}
                   >
-                    {"The circles are just rounded boxes."}
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__v1EdO
+                      )}
+                    >
+                      <React.Fragment>
+                        <React.Fragment>{""}</React.Fragment>
+                        {
+                          <h6
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.h6,
+                              projectcss.__wab_text,
+                              sty.h6__syXXe
+                            )}
+                          >
+                            {"WEB DEVELOPMENT"}
+                          </h6>
+                        }
+                        <React.Fragment>{""}</React.Fragment>
+                      </React.Fragment>
+                    </div>
                   </div>
-                </div>
-              </p.Stack>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__oc4Lz)}
+                  >
+                    <h5
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h5,
+                        projectcss.__wab_text,
+                        sty.h5__xdxMe
+                      )}
+                    >
+                      {
+                        "- Розробка веб-API\n- Створення мобільного додатка\n- Реалізація електронної комерції\n- Графічний дизайн\n- Інтеграції\n- Об'єктно-орієнтовані користувачські інтерфейси"
+                      }
+                    </h5>
+                  </div>
+                </p.Stack>
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(
+                    projectcss.all,
+                    sty.freeBox__kr1Bz,
+                    "root" as const
+                  )}
+                >
+                  {true ? (
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        sty.freeBox__atI0L,
+                        "" as const
+                      )}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__kHbJj
+                        )}
+                      >
+                        <ServerShieldSvgrepoComsvgIcon
+                          data-plasmic-name={"brandStrategyDevopsickcom"}
+                          data-plasmic-override={
+                            overrides.brandStrategyDevopsickcom
+                          }
+                          className={classNames(
+                            projectcss.all,
+                            sty.brandStrategyDevopsickcom,
+                            "lineback" as const
+                          )}
+                          role={"img"}
+                        />
+                      </div>
+                    </div>
+                  ) : null}
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__rLi1M)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text___2Byos
+                      )}
+                    >
+                      <React.Fragment>
+                        <React.Fragment>{""}</React.Fragment>
+                        {
+                          <h6
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.h6,
+                              projectcss.__wab_text,
+                              sty.h6___6SoE7
+                            )}
+                          >
+                            {" DEVOPS MARKETING"}
+                          </h6>
+                        }
+                        <React.Fragment>{""}</React.Fragment>
+                      </React.Fragment>
+                    </div>
+                  </div>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__dhIjh)}
+                  >
+                    <h5
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h5,
+                        projectcss.__wab_text,
+                        sty.h5__iua35
+                      )}
+                    >
+                      {
+                        "- Автоматична збірка та розгортання\n- Повна ізоляція або спільна інфраструктура\n- Майже миттєва міграція\n- Інструменти DevOps\n- Автоматичне резервне копіювання\n- Вертикальне та горизонтальне масштабування\n- Оптимізація витрат за допомогою 200+ програм на відкритому коді"
+                      }
+                    </h5>
+                  </div>
+                </p.Stack>
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(
+                    projectcss.all,
+                    sty.freeBox___8I8G,
+                    "root" as const
+                  )}
+                >
+                  {true ? (
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__njXbl)}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__wJ2L,
+                          "" as const
+                        )}
+                      >
+                        <MarketingAdvertisingSvgrepoComsvgIcon
+                          data-plasmic-name={"digitalMarketingDevopscikcom"}
+                          data-plasmic-override={
+                            overrides.digitalMarketingDevopscikcom
+                          }
+                          className={classNames(
+                            projectcss.all,
+                            sty.digitalMarketingDevopscikcom
+                          )}
+                          role={"img"}
+                        />
+                      </div>
+                    </div>
+                  ) : null}
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__xBdFb)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__n8Y40
+                      )}
+                    >
+                      <React.Fragment>
+                        <React.Fragment>{""}</React.Fragment>
+                        {
+                          <h6
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.h6,
+                              projectcss.__wab_text,
+                              sty.h6__ihbWp
+                            )}
+                          >
+                            {"DIGITAL MARKETING"}
+                          </h6>
+                        }
+                        <React.Fragment>{""}</React.Fragment>
+                      </React.Fragment>
+                    </div>
+                  </div>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__dIzV0)}
+                  >
+                    <h5
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h5,
+                        projectcss.__wab_text,
+                        sty.h5__w66Jr
+                      )}
+                    >
+                      {
+                        "- Локальне та глобальне SEO\n- Рекламна розсилка\n- Google Adwords\n- Партнерський маркетинг\n- Взаємодія з аудиторією\n- Відеовиробництво"
+                      }
+                    </h5>
+                  </div>
+                </p.Stack>
+              </div>
             </p.Stack>
-          </p.Stack>
-
+          ) : null}
+          <div className={classNames(projectcss.all, sty.freeBox__djJq)}>
+            {true ? (
+              <StarsBackend2
+                className={classNames(
+                  "__wab_instance",
+                  sty.starsBackend2__ctNdF
+                )}
+              />
+            ) : null}
+            <h2
+              className={classNames(
+                projectcss.all,
+                projectcss.h2,
+                projectcss.__wab_text,
+                sty.h2__zfqsC,
+                "textionalty" as const
+              )}
+            >
+              {"ПослІдовність Процессів"}
+            </h2>
+          </div>
           <div className={classNames(projectcss.all, sty.freeBox__xaOdz)}>
             <div className={classNames(projectcss.all, sty.freeBox__yqj3B)}>
               <div
@@ -435,14 +961,10 @@ function PlasmicHomepage__RenderFunc(props: {
                 >
                   {"1"}
                 </div>
-
                 <WhiteBall
-                  data-plasmic-name={"whiteBall"}
-                  data-plasmic-override={overrides.whiteBall}
-                  className={classNames("__wab_instance", sty.whiteBall)}
+                  className={classNames("__wab_instance", sty.whiteBall__i52J)}
                 />
               </div>
-
               <div
                 className={classNames(
                   projectcss.all,
@@ -451,28 +973,1088 @@ function PlasmicHomepage__RenderFunc(props: {
                 )}
               />
             </div>
-
             {true ? (
               <div className={classNames(projectcss.all, sty.freeBox__vCs6A)}>
-                <div className={classNames(projectcss.all, sty.freeBox__epuz3)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    sty.freeBox__epuz3,
+                    "" as const
+                  )}
+                >
                   <div
-                    className={classNames(projectcss.all, sty.freeBox__q4Ia7)}
-                  />
+                    className={classNames(
+                      projectcss.all,
+                      sty.freeBox__q4Ia7,
+                      "" as const
+                    )}
+                    title={"" as const}
+                  >
+                    <AstronautHello
+                      data-plasmic-name={"astronautHello"}
+                      data-plasmic-override={overrides.astronautHello}
+                      className={classNames(
+                        "__wab_instance",
+                        sty.astronautHello
+                      )}
+                    />
 
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        sty.freeBox__ht8Mf,
+                        "" as const
+                      )}
+                    >
+                      <h3
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.h3,
+                          projectcss.__wab_text,
+                          sty.h3__uZpyf,
+                          "textionalty" as const
+                        )}
+                      >
+                        {"Знайомство"}
+                      </h3>
+                      <h4
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.h4,
+                          projectcss.__wab_text,
+                          sty.h4__oZJta
+                        )}
+                      >
+                        {
+                          "Перший крок — дізнатися більше про вас, бачення вашої компанії та побудувати міцні стосунки. Саме тут ми створимо ваш бренд, створимо індивідуальну стратегію та поставимо цілі проекту.\nМи досліджуємо методи, які найкраще підійдуть для вашого проекту, і розробляємо детальний план подальших дій."
+                        }
+                      </h4>
+                    </div>
+                  </div>
                   <div
-                    className={classNames(projectcss.all, sty.freeBox__qxdwr)}
-                  />
+                    className={classNames(
+                      projectcss.all,
+                      sty.freeBox__qxdwr,
+                      "" as const
+                    )}
+                  >
+                    {true ? (
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(
+                          sty.img__kSerg,
+                          "rotate" as const
+                        )}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={
+                          hasVariant(globalVariants, "screen", "mobileOnly")
+                            ? ("none" as const)
+                            : ("none" as const)
+                        }
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"auto" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/devopsick_com/images/ringssvg.svg",
+                          fullWidth: 150,
+                          fullHeight: 150,
+                          aspectRatio: 1
+                        }}
+                      />
+                    ) : null}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      sty.freeBox__ovbar,
+                      "" as const
+                    )}
+                  >
+                    <ResearchMarketing
+                      data-plasmic-name={"researchMarketing"}
+                      data-plasmic-override={overrides.researchMarketing}
+                      className={classNames(
+                        "__wab_instance",
+                        sty.researchMarketing
+                      )}
+                    />
 
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        sty.freeBox__kKeEa,
+                        "" as const
+                      )}
+                    >
+                      <h3
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.h3,
+                          projectcss.__wab_text,
+                          sty.h3__cEsJ2,
+                          "textionalty" as const
+                        )}
+                      >
+                        {"Дослідження"}
+                      </h3>
+                      <h4
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.h4,
+                          projectcss.__wab_text,
+                          sty.h4__krZmW
+                        )}
+                      >
+                        {
+                          "Маркетингове дослідження це процес визначення життєздатності послуги або продукту і є комбінацією первинної (ті ідеї та цілі, які ви хочете втілити) та вторинної інформації, яка вже зібрана наслідком вивчення та аналізу загальнодоступних даних та результатів роботи з потенційною аудиторією. Це дозволяє Вам виявити цільові ринки, отримати думки та інші відгуки від споживачів щодо їхнього інтересу до продукту чи послуги."
+                        }
+                      </h4>
+                    </div>
+                  </div>
                   <div
-                    className={classNames(projectcss.all, sty.freeBox__ovbar)}
-                  />
+                    className={classNames(
+                      projectcss.all,
+                      sty.freeBox__kIzWp,
+                      "" as const
+                    )}
+                  >
+                    <EyeMarketing
+                      data-plasmic-name={"eyeMarketing"}
+                      data-plasmic-override={overrides.eyeMarketing}
+                      className={classNames("__wab_instance", sty.eyeMarketing)}
+                    />
 
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__kIzWp)}
-                  />
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        sty.freeBox__yrNx7,
+                        "" as const
+                      )}
+                    >
+                      <h3
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.h3,
+                          projectcss.__wab_text,
+                          sty.h3__dW83U,
+                          "textionalty" as const
+                        )}
+                      >
+                        {"Аналітика"}
+                      </h3>
+                      <h4
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.h4,
+                          projectcss.__wab_text,
+                          sty.h4__k1S
+                        )}
+                      >
+                        {
+                          "Вам потрібні більш сучасні інструменти, щоб зрозуміти ваших клієнтів. Основою будь-якого хорошого управління бізнесом є інтерпретація та розуміння даних. Ми можемо надати вам необхідні інструменти, якщо ви боретеся зі своєю базою даних, демографією або керуванням електронною комерцією."
+                        }
+                      </h4>
+                    </div>
+                  </div>
                 </div>
               </div>
             ) : null}
+          </div>
+          <div className={classNames(projectcss.all, sty.freeBox__qydfv)}>
+            {true ? (
+              <StarsBackend2
+                className={classNames(
+                  "__wab_instance",
+                  sty.starsBackend2___0Bods
+                )}
+              />
+            ) : null}
+            <div className={classNames(projectcss.all, sty.freeBox__upmak)}>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  sty.freeBox___83Xf,
+                  "DevOpSick" as const
+                )}
+              >
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__mo5P1,
+                    "textionalty" as const
+                  )}
+                >
+                  {"2"}
+                </div>
+                <WhiteBall
+                  className={classNames("__wab_instance", sty.whiteBall__qggBl)}
+                />
+              </div>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  sty.freeBox__gldl,
+                  "lineback" as const
+                )}
+              />
+            </div>
+            {true ? (
+              <div className={classNames(projectcss.all, sty.freeBox__rGv1)}>
+                <div className={classNames(projectcss.all, sty.freeBox__a4OkR)}>
+                  {true ? (
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__dA0W)}
+                    >
+                      <AstronautMeditation
+                        data-plasmic-name={"astronautMeditation"}
+                        data-plasmic-override={overrides.astronautMeditation}
+                        className={classNames(
+                          "__wab_instance",
+                          sty.astronautMeditation
+                        )}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__b5Hx4,
+                          "" as const
+                        )}
+                      >
+                        <h3
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.h3,
+                            projectcss.__wab_text,
+                            sty.h3__uEwj7,
+                            "textionalty" as const
+                          )}
+                        >
+                          {"Планування"}
+                        </h3>
+                        <h4
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.h4,
+                            projectcss.__wab_text,
+                            sty.h4__uzYo
+                          )}
+                        >
+                          {
+                            "Після першої зустрічі та проведення аналізу ніші ми обговоримо веб-дизайн вашого проекту, контекстної реклами, вхідного, вихідного маркетингу та контент-маркетингу. Створюємо схему та узгоджуємо пріоритети. Після цього будуть створені візуальні концепції індивідуального проекту, який ми з Вами доопрацьовуємо, поки все не буде відповідати Вашим цілям веб-дизайну. Тепер у нас з Вами є стратегічний план, який відповідає вашому початковому баченню та робить ваші цілі досяжними."
+                          }
+                        </h4>
+                      </div>
+                    </div>
+                  ) : null}
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      sty.freeBox___5AAgT,
+                      "" as const
+                    )}
+                  />
+
+                  {true ? (
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__j5Gy)}
+                    >
+                      <AstronautStars
+                        data-plasmic-name={"astronautStars"}
+                        data-plasmic-override={overrides.astronautStars}
+                        className={classNames(
+                          "__wab_instance",
+                          sty.astronautStars
+                        )}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox___3G3CK,
+                          "" as const
+                        )}
+                      >
+                        <h3
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.h3,
+                            projectcss.__wab_text,
+                            sty.h3__u1Ia6,
+                            "textionalty" as const
+                          )}
+                        >
+                          {"Стратегія Бренду"}
+                        </h3>
+                        <h4
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.h4,
+                            projectcss.__wab_text,
+                            sty.h4__aWztE
+                          )}
+                        >
+                          {
+                            "Брендинг - це основа, на якій будується будь-який бізнес, а для цифрового світу, що постійно розвивається, не завжди актуальний старий стиль і дизайн маркетингових матеріалів.\nЗавдання №1 - перетворити Ваш продукт на те, що відповідає сучасним тенденціям дизайну методом зосередженості на вашій репутації, фірмовому стилі та відгуків користувачів в єдиному процесі! Давайте оптимізуємо та зробимо Вас іконою стилю, щоб Ваші користувачі якнайшвидше знаходили кнопку «Замовлення»!"
+                          }
+                        </h4>
+                      </div>
+                    </div>
+                  ) : null}
+                  {true ? (
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__phGfO)}
+                    >
+                      <AstronautMoon
+                        data-plasmic-name={"astronautMoon"}
+                        data-plasmic-override={overrides.astronautMoon}
+                        className={classNames(
+                          "__wab_instance",
+                          sty.astronautMoon
+                        )}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__uU9Mh,
+                          "" as const
+                        )}
+                      >
+                        <h3
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.h3,
+                            projectcss.__wab_text,
+                            sty.h3__zF1Jr,
+                            "textionalty" as const
+                          )}
+                        >
+                          {"Створення контенту"}
+                        </h3>
+                        <h4
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.h4,
+                            projectcss.__wab_text,
+                            sty.h4__toKYc
+                          )}
+                        >
+                          {
+                            "Контент є важливою сходинкою для будь-якого бізнесу, щоб вивести свої ідеї на ринок. Дотримуюся правила що кожен веб-сайт, бренд та продукт спеціалізується на тому, щоб відповідати потребам кожного клієнта та пояснити, чому Ваш продукт кращий за конкурентів."
+                          }
+                        </h4>
+                      </div>
+                    </div>
+                  ) : null}
+                </div>
+              </div>
+            ) : null}
+          </div>
+          <div className={classNames(projectcss.all, sty.freeBox__rr9Is)}>
+            <div className={classNames(projectcss.all, sty.freeBox__s3Ft)}>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  sty.freeBox___4GzUw,
+                  "DevOpSick" as const
+                )}
+              >
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__ozh5T,
+                    "textionalty" as const
+                  )}
+                >
+                  {"3"}
+                </div>
+                <WhiteBall
+                  className={classNames("__wab_instance", sty.whiteBall__boGdo)}
+                />
+              </div>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  sty.freeBox__w7G9,
+                  "lineback" as const
+                )}
+              />
+            </div>
+            {true ? (
+              <div className={classNames(projectcss.all, sty.freeBox__dFvZ)}>
+                <div className={classNames(projectcss.all, sty.freeBox__w8PI)}>
+                  {true ? (
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__mHwmp)}
+                    >
+                      <AstronautWithRocket
+                        data-plasmic-name={"astronautWithRocket"}
+                        data-plasmic-override={overrides.astronautWithRocket}
+                        className={classNames(
+                          "__wab_instance",
+                          sty.astronautWithRocket
+                        )}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__m1AtA,
+                          "" as const
+                        )}
+                      >
+                        <h3
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.h3,
+                            projectcss.__wab_text,
+                            sty.h3__oDfaJ,
+                            "textionalty" as const
+                          )}
+                        >
+                          {"Налаштування серверів"}
+                        </h3>
+                        <h4
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.h4,
+                            projectcss.__wab_text,
+                            sty.h4__o5KGr
+                          )}
+                        >
+                          {
+                            "Ви отримуєте повний доступ до базових ресурсів та безпеки на рівні ядра. Усі з'єднання між вашим комп'ютером, панеллю керування та вашими службами наскрізно зашифровані. Швидке розгортання та гарантована щомісячна ціна покриває все: обчислювальні ресурси, сховище, пропускну здатність, оновлення, безпеку та обслуговування, а автоматичні оновлення позбавляє Ваш бізнес багатьох клопотів, забезпечивши при цьому продуктивність та безпеку регулярно оновлюваного програмного забезпечення та систем."
+                          }
+                        </h4>
+                      </div>
+                    </div>
+                  ) : null}
+                  {true ? (
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        sty.freeBox___7JoUs
+                      )}
+                    >
+                      <AstronautComputer
+                        data-plasmic-name={"astronautComputer"}
+                        data-plasmic-override={overrides.astronautComputer}
+                        className={classNames(
+                          "__wab_instance",
+                          sty.astronautComputer
+                        )}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__wQaRg,
+                          "" as const
+                        )}
+                      >
+                        <h3
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.h3,
+                            projectcss.__wab_text,
+                            sty.h3___1Myp,
+                            "textionalty" as const
+                          )}
+                        >
+                          {"Розробка та тестування"}
+                        </h3>
+                        <h4
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.h4,
+                            projectcss.__wab_text,
+                            sty.h4__mSSh
+                          )}
+                        >
+                          {
+                            "Метою цього етапу є визначення продукту чи послуги, які будуть одночасно бажані для клієнтів, прибуткові для бізнесу та здійсненні для розробки та виведення на ринок.\n\n- Ідентифікація стеку технологій\n- Розробка серверної архітектури\n- Розробка конфігурації середовища\n- Розробка API серверних програм\n\nРозробляємо серверну архітектуру вашого програмного забезпечення та бекенд API, використовуючи першокласний підхід та найкращі на ринку технології та створюємо клієнтську архітектуру та інтерфейсний API для вашого програмного забезпечення та документуємо їх. Перш ніж програма буде випущена, ми гарантуємо її високу якість та відсутність помилок."
+                          }
+                        </h4>
+                      </div>
+                    </div>
+                  ) : null}
+                  {true ? (
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__e0X3)}
+                    >
+                      <AstronautVLike
+                        data-plasmic-name={"astronautVLike"}
+                        data-plasmic-override={overrides.astronautVLike}
+                        className={classNames(
+                          "__wab_instance",
+                          sty.astronautVLike
+                        )}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__iuqHm,
+                          "" as const
+                        )}
+                      >
+                        <h3
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.h3,
+                            projectcss.__wab_text,
+                            sty.h3__yC7D,
+                            "textionalty" as const
+                          )}
+                        >
+                          {"Налаштування маркетингу"}
+                        </h3>
+                        <h4
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.h4,
+                            projectcss.__wab_text,
+                            sty.h4__mhhZq
+                          )}
+                        >
+                          {
+                            "Інтелектуальне та сучасне розуміння цифрового ринку індивідуальне для кожного споживача. Необхідно задіяти потрібні інструменти та платформи та органічно розвивати ваш продукт. Розробляємо та впроваджуємо комплексні цифрові маркетингові стратегії, використовуючи метод методики аналізу успішних гігантів. Розширюємо свою присутність в Інтернеті за допомогою конкурентного аналізу та дослідження ключових слів."
+                          }
+                        </h4>
+                      </div>
+                    </div>
+                  ) : null}
+                  {true ? (
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__vKi7B)}
+                    >
+                      <AstronautOnRocket
+                        data-plasmic-name={"astronautOnRocket"}
+                        data-plasmic-override={overrides.astronautOnRocket}
+                        className={classNames(
+                          "__wab_instance",
+                          sty.astronautOnRocket
+                        )}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__skX8T,
+                          "" as const
+                        )}
+                      >
+                        <h3
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.h3,
+                            projectcss.__wab_text,
+                            sty.h3__xFoAg,
+                            "textionalty" as const
+                          )}
+                        >
+                          {"Запуск продукта"}
+                        </h3>
+                        <h4
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.h4,
+                            projectcss.__wab_text,
+                            sty.h4__rafsI
+                          )}
+                        >
+                          {
+                            "Тут ми пропонуємо ваш індивідуальний проект веб-дизайну. Після схвалення ваш проект буде запущений та просуватися. Тоді розслабтеся та спостерігайте за імпульсом!"
+                          }
+                        </h4>
+                      </div>
+                    </div>
+                  ) : null}
+                </div>
+              </div>
+            ) : null}
+          </div>
+          <p.Stack
+            as={"div"}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.freeBox___1BIuP)}
+          >
+            <p.Stack
+              as={"div"}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.freeBox___2D1KR)}
+            >
+              <h2
+                className={classNames(
+                  projectcss.all,
+                  projectcss.h2,
+                  projectcss.__wab_text,
+                  sty.h2__fz8W7
+                )}
+              >
+                {"Давайте знайомитись!"}
+              </h2>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__nQTea
+                )}
+              >
+                {"Я "}
+              </div>
+              <Button
+                className={classNames("__wab_instance", sty.button__aP4LC)}
+                endIcon={
+                  <Icon2Icon
+                    className={classNames(projectcss.all, sty.svg__r48Q)}
+                    role={"img"}
+                  />
+                }
+                startIcon={
+                  <ChecksvgIcon
+                    className={classNames(projectcss.all, sty.svg__gcdud)}
+                    role={"img"}
+                  />
+                }
+              >
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__ldDtg
+                  )}
+                >
+                  {"Start now ->"}
+                </div>
+              </Button>
+            </p.Stack>
+          </p.Stack>
+          <div className={classNames(projectcss.all, sty.freeBox___6WJ2M)}>
+            <p.Stack
+              as={"div"}
+              data-plasmic-name={"columns"}
+              data-plasmic-override={overrides.columns}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.columns)}
+            >
+              <div className={classNames(projectcss.all, sty.column__p8Lsw)}>
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__emi5I)}
+                >
+                  <p.PlasmicImg
+                    alt={""}
+                    className={classNames(sty.img__in4NI)}
+                    displayHeight={"75px" as const}
+                    displayMaxHeight={"none" as const}
+                    displayMaxWidth={"none" as const}
+                    displayMinHeight={"0" as const}
+                    displayMinWidth={"0" as const}
+                    displayWidth={"125px" as const}
+                    src={{
+                      src: "/plasmic/devopsick_com/images/logopit1677881020485Png.png",
+                      fullWidth: 720,
+                      fullHeight: 720,
+                      aspectRatio: undefined
+                    }}
+                  />
+
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox__mcCMo)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__qaPb
+                      )}
+                    >
+                      {"DevOpSick"}
+                    </div>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.freeBox__jruOk)}
+                    >
+                      <Icon3Icon
+                        className={classNames(projectcss.all, sty.svg___5Qkym)}
+                        role={"img"}
+                      />
+
+                      <Icon4Icon
+                        className={classNames(projectcss.all, sty.svg__ugLe2)}
+                        role={"img"}
+                      />
+
+                      <Icon28Icon
+                        className={classNames(projectcss.all, sty.svg___3FSyl)}
+                        role={"img"}
+                      />
+                    </p.Stack>
+                  </p.Stack>
+                </p.Stack>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__lcjDb)}>
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__h9IIv)}
+                >
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__k14Il,
+                      "textionalty" as const
+                    )}
+                  >
+                    {"Product"}
+                  </div>
+                  <Button
+                    className={classNames("__wab_instance", sty.button__m3TDv)}
+                    color={"clear" as const}
+                    endIcon={
+                      <Icon2Icon
+                        className={classNames(projectcss.all, sty.svg__ftpt8)}
+                        role={"img"}
+                      />
+                    }
+                    size={"minimal" as const}
+                    startIcon={
+                      <ChecksvgIcon
+                        className={classNames(projectcss.all, sty.svg__dO9RD)}
+                        role={"img"}
+                      />
+                    }
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text___6J7O2
+                      )}
+                    >
+                      {"Pricing"}
+                    </div>
+                  </Button>
+                  <Button
+                    className={classNames("__wab_instance", sty.button__uhAvh)}
+                    color={"clear" as const}
+                    endIcon={
+                      <Icon2Icon
+                        className={classNames(projectcss.all, sty.svg__gz8H)}
+                        role={"img"}
+                      />
+                    }
+                    size={"minimal" as const}
+                    startIcon={
+                      <ChecksvgIcon
+                        className={classNames(projectcss.all, sty.svg__anbxc)}
+                        role={"img"}
+                      />
+                    }
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__jwx1M
+                      )}
+                    >
+                      {"Log in"}
+                    </div>
+                  </Button>
+                  <Button
+                    className={classNames("__wab_instance", sty.button___4Qzh2)}
+                    color={"clear" as const}
+                    endIcon={
+                      <Icon2Icon
+                        className={classNames(projectcss.all, sty.svg__c14Gr)}
+                        role={"img"}
+                      />
+                    }
+                    size={"minimal" as const}
+                    startIcon={
+                      <ChecksvgIcon
+                        className={classNames(projectcss.all, sty.svg__cguMm)}
+                        role={"img"}
+                      />
+                    }
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text___3XrFo
+                      )}
+                    >
+                      {"Integrations"}
+                    </div>
+                  </Button>
+                  <Button
+                    className={classNames("__wab_instance", sty.button__w5Pw8)}
+                    color={"clear" as const}
+                    endIcon={
+                      <Icon2Icon
+                        className={classNames(projectcss.all, sty.svg__t8Ubz)}
+                        role={"img"}
+                      />
+                    }
+                    size={"minimal" as const}
+                    startIcon={
+                      <ChecksvgIcon
+                        className={classNames(projectcss.all, sty.svg__rYhpI)}
+                        role={"img"}
+                      />
+                    }
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__lhpL
+                      )}
+                    >
+                      {"Insights"}
+                    </div>
+                  </Button>
+                </p.Stack>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__pgzv3)}>
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__hco0V)}
+                >
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__s0WV7,
+                      "textionalty" as const
+                    )}
+                  >
+                    {"Support"}
+                  </div>
+                  <Button
+                    className={classNames("__wab_instance", sty.button__lxQt)}
+                    color={"clear" as const}
+                    endIcon={
+                      <Icon2Icon
+                        className={classNames(projectcss.all, sty.svg__jhf7D)}
+                        role={"img"}
+                      />
+                    }
+                    size={"minimal" as const}
+                    startIcon={
+                      <ChecksvgIcon
+                        className={classNames(projectcss.all, sty.svg__dggr5)}
+                        role={"img"}
+                      />
+                    }
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__yDlyk
+                      )}
+                    >
+                      {"Documentation"}
+                    </div>
+                  </Button>
+                  <Button
+                    className={classNames("__wab_instance", sty.button__v16Uz)}
+                    color={"clear" as const}
+                    endIcon={
+                      <Icon2Icon
+                        className={classNames(projectcss.all, sty.svg__eRcL1)}
+                        role={"img"}
+                      />
+                    }
+                    size={"minimal" as const}
+                    startIcon={
+                      <ChecksvgIcon
+                        className={classNames(projectcss.all, sty.svg__hkGdC)}
+                        role={"img"}
+                      />
+                    }
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__s7DDq
+                      )}
+                    >
+                      {"FAQs"}
+                    </div>
+                  </Button>
+                  <Button
+                    className={classNames("__wab_instance", sty.button__gWpMm)}
+                    color={"clear" as const}
+                    endIcon={
+                      <Icon2Icon
+                        className={classNames(projectcss.all, sty.svg__hvNpu)}
+                        role={"img"}
+                      />
+                    }
+                    size={"minimal" as const}
+                    startIcon={
+                      <ChecksvgIcon
+                        className={classNames(projectcss.all, sty.svg__nEuqh)}
+                        role={"img"}
+                      />
+                    }
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text___1AEbD
+                      )}
+                    >
+                      {"Status"}
+                    </div>
+                  </Button>
+                </p.Stack>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__kbDtn)}>
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__eR51K)}
+                >
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__wMy4L,
+                      "textionalty" as const
+                    )}
+                  >
+                    {"Company"}
+                  </div>
+                  <Button
+                    className={classNames("__wab_instance", sty.button__ycd6G)}
+                    color={"clear" as const}
+                    endIcon={
+                      <Icon2Icon
+                        className={classNames(projectcss.all, sty.svg__rK0Iz)}
+                        role={"img"}
+                      />
+                    }
+                    size={"minimal" as const}
+                    startIcon={
+                      <ChecksvgIcon
+                        className={classNames(projectcss.all, sty.svg__n0Wi6)}
+                        role={"img"}
+                      />
+                    }
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__igazK
+                      )}
+                    >
+                      {"About"}
+                    </div>
+                  </Button>
+                  <Button
+                    className={classNames("__wab_instance", sty.button__wVQka)}
+                    color={"clear" as const}
+                    endIcon={
+                      <Icon2Icon
+                        className={classNames(projectcss.all, sty.svg__gdoYt)}
+                        role={"img"}
+                      />
+                    }
+                    size={"minimal" as const}
+                    startIcon={
+                      <ChecksvgIcon
+                        className={classNames(projectcss.all, sty.svg__pmb3B)}
+                        role={"img"}
+                      />
+                    }
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__x5RDc
+                      )}
+                    >
+                      {"Contact us"}
+                    </div>
+                  </Button>
+                  <Button
+                    className={classNames("__wab_instance", sty.button___8Obz3)}
+                    color={"clear" as const}
+                    endIcon={
+                      <Icon2Icon
+                        className={classNames(projectcss.all, sty.svg__j8Dx)}
+                        role={"img"}
+                      />
+                    }
+                    size={"minimal" as const}
+                    startIcon={
+                      <ChecksvgIcon
+                        className={classNames(projectcss.all, sty.svg__o7VFx)}
+                        role={"img"}
+                      />
+                    }
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text___2Xv5C
+                      )}
+                    >
+                      {"Careers"}
+                    </div>
+                  </Button>
+                  <Button
+                    className={classNames("__wab_instance", sty.button__exMei)}
+                    color={"clear" as const}
+                    endIcon={
+                      <Icon2Icon
+                        className={classNames(projectcss.all, sty.svg___4DE5O)}
+                        role={"img"}
+                      />
+                    }
+                    size={"minimal" as const}
+                    startIcon={
+                      <ChecksvgIcon
+                        className={classNames(projectcss.all, sty.svg___43NCf)}
+                        role={"img"}
+                      />
+                    }
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__jQ5XP
+                      )}
+                    >
+                      {"Media"}
+                    </div>
+                  </Button>
+                </p.Stack>
+              </div>
+            </p.Stack>
           </div>
         </div>
       </div>
@@ -481,21 +2063,81 @@ function PlasmicHomepage__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "embedHtml", "section", "h1", "whiteBall"],
-  embedHtml: ["embedHtml"],
-  section: ["section", "h1"],
+  root: [
+    "root",
+    "section",
+    "h1",
+    "hackerBlack",
+    "brandStrategyDevopsickcom3",
+    "dataAnalysisDevopsickcom",
+    "businessConsultingDevopsickcom",
+    "brandStrategyDevopsickcom2",
+    "contentCreationDevopsickcom",
+    "webDevelopmentDevopsickcom",
+    "brandStrategyDevopsickcom",
+    "digitalMarketingDevopscikcom",
+    "astronautHello",
+    "researchMarketing",
+    "eyeMarketing",
+    "astronautMeditation",
+    "astronautStars",
+    "astronautMoon",
+    "astronautWithRocket",
+    "astronautComputer",
+    "astronautVLike",
+    "astronautOnRocket",
+    "columns"
+  ],
+  section: ["section", "h1", "hackerBlack"],
   h1: ["h1"],
-  whiteBall: ["whiteBall"]
+  hackerBlack: ["hackerBlack"],
+  brandStrategyDevopsickcom3: ["brandStrategyDevopsickcom3"],
+  dataAnalysisDevopsickcom: ["dataAnalysisDevopsickcom"],
+  businessConsultingDevopsickcom: ["businessConsultingDevopsickcom"],
+  brandStrategyDevopsickcom2: ["brandStrategyDevopsickcom2"],
+  contentCreationDevopsickcom: ["contentCreationDevopsickcom"],
+  webDevelopmentDevopsickcom: ["webDevelopmentDevopsickcom"],
+  brandStrategyDevopsickcom: ["brandStrategyDevopsickcom"],
+  digitalMarketingDevopscikcom: ["digitalMarketingDevopscikcom"],
+  astronautHello: ["astronautHello"],
+  researchMarketing: ["researchMarketing"],
+  eyeMarketing: ["eyeMarketing"],
+  astronautMeditation: ["astronautMeditation"],
+  astronautStars: ["astronautStars"],
+  astronautMoon: ["astronautMoon"],
+  astronautWithRocket: ["astronautWithRocket"],
+  astronautComputer: ["astronautComputer"],
+  astronautVLike: ["astronautVLike"],
+  astronautOnRocket: ["astronautOnRocket"],
+  columns: ["columns"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
   (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   root: "div";
-  embedHtml: typeof Embed;
   section: "section";
   h1: "h1";
-  whiteBall: typeof WhiteBall;
+  hackerBlack: typeof HackerBlack;
+  brandStrategyDevopsickcom3: "svg";
+  dataAnalysisDevopsickcom: "svg";
+  businessConsultingDevopsickcom: "svg";
+  brandStrategyDevopsickcom2: "svg";
+  contentCreationDevopsickcom: "svg";
+  webDevelopmentDevopsickcom: "svg";
+  brandStrategyDevopsickcom: "svg";
+  digitalMarketingDevopscikcom: "svg";
+  astronautHello: typeof AstronautHello;
+  researchMarketing: typeof ResearchMarketing;
+  eyeMarketing: typeof EyeMarketing;
+  astronautMeditation: typeof AstronautMeditation;
+  astronautStars: typeof AstronautStars;
+  astronautMoon: typeof AstronautMoon;
+  astronautWithRocket: typeof AstronautWithRocket;
+  astronautComputer: typeof AstronautComputer;
+  astronautVLike: typeof AstronautVLike;
+  astronautOnRocket: typeof AstronautOnRocket;
+  columns: "div";
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -558,10 +2200,34 @@ export const PlasmicHomepage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    embedHtml: makeNodeComponent("embedHtml"),
     section: makeNodeComponent("section"),
     h1: makeNodeComponent("h1"),
-    whiteBall: makeNodeComponent("whiteBall"),
+    hackerBlack: makeNodeComponent("hackerBlack"),
+    brandStrategyDevopsickcom3: makeNodeComponent("brandStrategyDevopsickcom3"),
+    dataAnalysisDevopsickcom: makeNodeComponent("dataAnalysisDevopsickcom"),
+    businessConsultingDevopsickcom: makeNodeComponent(
+      "businessConsultingDevopsickcom"
+    ),
+    brandStrategyDevopsickcom2: makeNodeComponent("brandStrategyDevopsickcom2"),
+    contentCreationDevopsickcom: makeNodeComponent(
+      "contentCreationDevopsickcom"
+    ),
+    webDevelopmentDevopsickcom: makeNodeComponent("webDevelopmentDevopsickcom"),
+    brandStrategyDevopsickcom: makeNodeComponent("brandStrategyDevopsickcom"),
+    digitalMarketingDevopscikcom: makeNodeComponent(
+      "digitalMarketingDevopscikcom"
+    ),
+    astronautHello: makeNodeComponent("astronautHello"),
+    researchMarketing: makeNodeComponent("researchMarketing"),
+    eyeMarketing: makeNodeComponent("eyeMarketing"),
+    astronautMeditation: makeNodeComponent("astronautMeditation"),
+    astronautStars: makeNodeComponent("astronautStars"),
+    astronautMoon: makeNodeComponent("astronautMoon"),
+    astronautWithRocket: makeNodeComponent("astronautWithRocket"),
+    astronautComputer: makeNodeComponent("astronautComputer"),
+    astronautVLike: makeNodeComponent("astronautVLike"),
+    astronautOnRocket: makeNodeComponent("astronautOnRocket"),
+    columns: makeNodeComponent("columns"),
 
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,
