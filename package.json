@@ -9,12 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@plasmicapp/cli": "^0.1.231",
+    "@plasmicapp/cli": "^0.1.239",
     "@plasmicapp/host": "^1.0.115",
-    "@plasmicapp/react-web": "^0.2.174",
+    "@plasmicapp/react-web": "^0.2.180",
     "@plasmicpkgs/lottie-react": "^0.0.100",
     "@plasmicpkgs/plasmic-basic-components": "^0.0.124",
     "@plasmicpkgs/plasmic-embed-css": "^0.1.99",
+    "@plasmicpkgs/plasmic-nav": "^0.0.89",
+    "@plasmicpkgs/react-awesome-reveal": "^3.8.119",
     "@types/node": "18.15.3",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
