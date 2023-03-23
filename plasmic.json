@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -38,7 +38,8 @@
           "name": "LottieWrapper",
           "componentImportPath": "@plasmicpkgs/lottie-react"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "caTPwKxj5ZrD9LQ7DMdK4Z",
@@ -72,7 +73,8 @@
           "name": "DataProvider",
           "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "8PtdGodUbexNYgkuyBUcWu",
@@ -91,7 +93,8 @@
           "name": "EmbedCss",
           "componentImportPath": "@plasmicpkgs/plasmic-embed-css"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "cdtVU2aoa983eSNLcnPTCH",
@@ -151,6 +154,306 @@
           "cssFilePath": "plasmic/devopsick_com/PlasmicPhoneMarketing.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "hSfSvIyAAK",
+          "name": "StarsBackend2",
+          "type": "managed",
+          "projectId": "cdtVU2aoa983eSNLcnPTCH",
+          "renderModuleFilePath": "plasmic/devopsick_com/PlasmicStarsBackend2.tsx",
+          "importSpec": {
+            "modulePath": "StarsBackend2.tsx"
+          },
+          "cssFilePath": "plasmic/devopsick_com/PlasmicStarsBackend2.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "v4YuLx5wo-y",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "cdtVU2aoa983eSNLcnPTCH",
+          "renderModuleFilePath": "plasmic/devopsick_com/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/devopsick_com/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "GY9RBRElzw",
+          "name": "About",
+          "type": "managed",
+          "projectId": "cdtVU2aoa983eSNLcnPTCH",
+          "renderModuleFilePath": "plasmic/devopsick_com/PlasmicAbout.tsx",
+          "importSpec": {
+            "modulePath": "../pages/about-me.tsx"
+          },
+          "cssFilePath": "plasmic/devopsick_com/PlasmicAbout.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "D1vcmOGPyK",
+          "name": "AstronautMeditation",
+          "type": "managed",
+          "projectId": "cdtVU2aoa983eSNLcnPTCH",
+          "renderModuleFilePath": "plasmic/devopsick_com/PlasmicAstronautMeditation.tsx",
+          "importSpec": {
+            "modulePath": "AstronautMeditation.tsx"
+          },
+          "cssFilePath": "plasmic/devopsick_com/PlasmicAstronautMeditation.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "SaUCoIjcWy",
+          "name": "MarketingLinks",
+          "type": "managed",
+          "projectId": "cdtVU2aoa983eSNLcnPTCH",
+          "renderModuleFilePath": "plasmic/devopsick_com/PlasmicMarketingLinks.tsx",
+          "importSpec": {
+            "modulePath": "MarketingLinks.tsx"
+          },
+          "cssFilePath": "plasmic/devopsick_com/PlasmicMarketingLinks.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "p-1N3pD5ib",
+          "name": "MarketingSeo",
+          "type": "managed",
+          "projectId": "cdtVU2aoa983eSNLcnPTCH",
+          "renderModuleFilePath": "plasmic/devopsick_com/PlasmicMarketingSeo.tsx",
+          "importSpec": {
+            "modulePath": "MarketingSeo.tsx"
+          },
+          "cssFilePath": "plasmic/devopsick_com/PlasmicMarketingSeo.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "sXNCWOsCp-",
+          "name": "HiText",
+          "type": "managed",
+          "projectId": "cdtVU2aoa983eSNLcnPTCH",
+          "renderModuleFilePath": "plasmic/devopsick_com/PlasmicHiText.tsx",
+          "importSpec": {
+            "modulePath": "HiText.tsx"
+          },
+          "cssFilePath": "plasmic/devopsick_com/PlasmicHiText.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "10FdlBYDeF",
+          "name": "HackerBlack",
+          "type": "managed",
+          "projectId": "cdtVU2aoa983eSNLcnPTCH",
+          "renderModuleFilePath": "plasmic/devopsick_com/PlasmicHackerBlack.tsx",
+          "importSpec": {
+            "modulePath": "HackerBlack.tsx"
+          },
+          "cssFilePath": "plasmic/devopsick_com/PlasmicHackerBlack.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ITD8DzkEoN",
+          "name": "MarketinBusiness",
+          "type": "managed",
+          "projectId": "cdtVU2aoa983eSNLcnPTCH",
+          "renderModuleFilePath": "plasmic/devopsick_com/PlasmicMarketinBusiness.tsx",
+          "importSpec": {
+            "modulePath": "MarketinBusiness.tsx"
+          },
+          "cssFilePath": "plasmic/devopsick_com/PlasmicMarketinBusiness.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "whhsKMSBTO",
+          "name": "AstronautHello",
+          "type": "managed",
+          "projectId": "cdtVU2aoa983eSNLcnPTCH",
+          "renderModuleFilePath": "plasmic/devopsick_com/PlasmicAstronautHello.tsx",
+          "importSpec": {
+            "modulePath": "AstronautHello.tsx"
+          },
+          "cssFilePath": "plasmic/devopsick_com/PlasmicAstronautHello.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "uwixa4PtPw",
+          "name": "MarketingSoftDev",
+          "type": "managed",
+          "projectId": "cdtVU2aoa983eSNLcnPTCH",
+          "renderModuleFilePath": "plasmic/devopsick_com/PlasmicMarketingSoftDev.tsx",
+          "importSpec": {
+            "modulePath": "MarketingSoftDev.tsx"
+          },
+          "cssFilePath": "plasmic/devopsick_com/PlasmicMarketingSoftDev.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "6wpxWKxK6M",
+          "name": "AstronautFreeConsultation",
+          "type": "managed",
+          "projectId": "cdtVU2aoa983eSNLcnPTCH",
+          "renderModuleFilePath": "plasmic/devopsick_com/PlasmicAstronautFreeConsultation.tsx",
+          "importSpec": {
+            "modulePath": "AstronautFreeConsultation.tsx"
+          },
+          "cssFilePath": "plasmic/devopsick_com/PlasmicAstronautFreeConsultation.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "IYs4S8surL",
+          "name": "EyeMarketing",
+          "type": "managed",
+          "projectId": "cdtVU2aoa983eSNLcnPTCH",
+          "renderModuleFilePath": "plasmic/devopsick_com/PlasmicEyeMarketing.tsx",
+          "importSpec": {
+            "modulePath": "EyeMarketing.tsx"
+          },
+          "cssFilePath": "plasmic/devopsick_com/PlasmicEyeMarketing.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "uQMxosl-9Q",
+          "name": "DevAcid",
+          "type": "managed",
+          "projectId": "cdtVU2aoa983eSNLcnPTCH",
+          "renderModuleFilePath": "plasmic/devopsick_com/PlasmicDevAcid.tsx",
+          "importSpec": {
+            "modulePath": "DevAcid.tsx"
+          },
+          "cssFilePath": "plasmic/devopsick_com/PlasmicDevAcid.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "0Ezdn5Imsb",
+          "name": "Spheresimo",
+          "type": "managed",
+          "projectId": "cdtVU2aoa983eSNLcnPTCH",
+          "renderModuleFilePath": "plasmic/devopsick_com/PlasmicSpheresimo.tsx",
+          "importSpec": {
+            "modulePath": "Spheresimo.tsx"
+          },
+          "cssFilePath": "plasmic/devopsick_com/PlasmicSpheresimo.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "etAplcViS1",
+          "name": "AstronautFreeConsultation2",
+          "type": "managed",
+          "projectId": "cdtVU2aoa983eSNLcnPTCH",
+          "renderModuleFilePath": "plasmic/devopsick_com/PlasmicAstronautFreeConsultation2.tsx",
+          "importSpec": {
+            "modulePath": "AstronautFreeConsultation2.tsx"
+          },
+          "cssFilePath": "plasmic/devopsick_com/PlasmicAstronautFreeConsultation2.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "sy_h8jTU0C",
+          "name": "AstronautStars",
+          "type": "managed",
+          "projectId": "cdtVU2aoa983eSNLcnPTCH",
+          "renderModuleFilePath": "plasmic/devopsick_com/PlasmicAstronautStars.tsx",
+          "importSpec": {
+            "modulePath": "AstronautStars.tsx"
+          },
+          "cssFilePath": "plasmic/devopsick_com/PlasmicAstronautStars.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ARTIb8ebZR",
+          "name": "AstronautMoon",
+          "type": "managed",
+          "projectId": "cdtVU2aoa983eSNLcnPTCH",
+          "renderModuleFilePath": "plasmic/devopsick_com/PlasmicAstronautMoon.tsx",
+          "importSpec": {
+            "modulePath": "AstronautMoon.tsx"
+          },
+          "cssFilePath": "plasmic/devopsick_com/PlasmicAstronautMoon.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "JcClX0fByS",
+          "name": "AstronautWithRocket",
+          "type": "managed",
+          "projectId": "cdtVU2aoa983eSNLcnPTCH",
+          "renderModuleFilePath": "plasmic/devopsick_com/PlasmicAstronautWithRocket.tsx",
+          "importSpec": {
+            "modulePath": "AstronautWithRocket.tsx"
+          },
+          "cssFilePath": "plasmic/devopsick_com/PlasmicAstronautWithRocket.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Cnnni4YIL2",
+          "name": "AstronautComputer",
+          "type": "managed",
+          "projectId": "cdtVU2aoa983eSNLcnPTCH",
+          "renderModuleFilePath": "plasmic/devopsick_com/PlasmicAstronautComputer.tsx",
+          "importSpec": {
+            "modulePath": "AstronautComputer.tsx"
+          },
+          "cssFilePath": "plasmic/devopsick_com/PlasmicAstronautComputer.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "FZeSYrpBP_",
+          "name": "AstronautVLike",
+          "type": "managed",
+          "projectId": "cdtVU2aoa983eSNLcnPTCH",
+          "renderModuleFilePath": "plasmic/devopsick_com/PlasmicAstronautVLike.tsx",
+          "importSpec": {
+            "modulePath": "AstronautVLike.tsx"
+          },
+          "cssFilePath": "plasmic/devopsick_com/PlasmicAstronautVLike.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "vy45ulpWo2",
+          "name": "AstronautOnRocket",
+          "type": "managed",
+          "projectId": "cdtVU2aoa983eSNLcnPTCH",
+          "renderModuleFilePath": "plasmic/devopsick_com/PlasmicAstronautOnRocket.tsx",
+          "importSpec": {
+            "modulePath": "AstronautOnRocket.tsx"
+          },
+          "cssFilePath": "plasmic/devopsick_com/PlasmicAstronautOnRocket.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "tBvU3WZC4z",
+          "name": "ResearchMarketing",
+          "type": "managed",
+          "projectId": "cdtVU2aoa983eSNLcnPTCH",
+          "renderModuleFilePath": "plasmic/devopsick_com/PlasmicResearchMarketing.tsx",
+          "importSpec": {
+            "modulePath": "ResearchMarketing.tsx"
+          },
+          "cssFilePath": "plasmic/devopsick_com/PlasmicResearchMarketing.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
@@ -158,9 +461,145 @@
           "id": "4ykfxNS0iVW",
           "name": "Icon14Icon",
           "moduleFilePath": "plasmic/devopsick_com/icons/PlasmicIcon__Icon14.tsx"
+        },
+        {
+          "id": "kFe29aY8nX",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/devopsick_com/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "mOGSgIkuAP",
+          "name": "TerminalsvgIcon",
+          "moduleFilePath": "plasmic/devopsick_com/icons/PlasmicIcon__Terminalsvg.tsx"
+        },
+        {
+          "id": "2l6tiJVepG",
+          "name": "DevSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/devopsick_com/icons/PlasmicIcon__DevSvgrepoComsvg.tsx"
+        },
+        {
+          "id": "oavS0FEkMY",
+          "name": "MarketingAdvertisingSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/devopsick_com/icons/PlasmicIcon__MarketingAdvertisingSvgrepoComsvg.tsx"
+        },
+        {
+          "id": "8XKsG38VyA",
+          "name": "WindowDevToolsSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/devopsick_com/icons/PlasmicIcon__WindowDevToolsSvgrepoComsvg.tsx"
+        },
+        {
+          "id": "N2aKPRihFX",
+          "name": "StrategyBusinessAndFinanceSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/devopsick_com/icons/PlasmicIcon__StrategyBusinessAndFinanceSvgrepoComsvg.tsx"
+        },
+        {
+          "id": "acgqALQlAV",
+          "name": "StrategyPlanningPrSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/devopsick_com/icons/PlasmicIcon__StrategyPlanningPrSvgrepoComsvg.tsx"
+        },
+        {
+          "id": "JzyK3VPeiX",
+          "name": "DataAnalysisInterfaceSymbolOfAMonitorWithABarsGraphicWithAMagnifierSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/devopsick_com/icons/PlasmicIcon__DataAnalysisInterfaceSymbolOfAMonitorWithABarsGraphicWithAMagnifierSvgrepoComsvg.tsx"
+        },
+        {
+          "id": "RMfP-WXxa2",
+          "name": "StrategyPlaySvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/devopsick_com/icons/PlasmicIcon__StrategyPlaySvgrepoComsvg.tsx"
+        },
+        {
+          "id": "zKXMm6aFog",
+          "name": "StrategyBrainstormSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/devopsick_com/icons/PlasmicIcon__StrategyBrainstormSvgrepoComsvg.tsx"
+        },
+        {
+          "id": "RQMwarqxpw",
+          "name": "StrategySvgrepoCom1SvgIcon",
+          "moduleFilePath": "plasmic/devopsick_com/icons/PlasmicIcon__StrategySvgrepoCom1Svg.tsx"
+        },
+        {
+          "id": "fro1T5c8T9",
+          "name": "BusinessFlowchatGraphSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/devopsick_com/icons/PlasmicIcon__BusinessFlowchatGraphSvgrepoComsvg.tsx"
+        },
+        {
+          "id": "q05AxLeoE1",
+          "name": "BusinessFileReportSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/devopsick_com/icons/PlasmicIcon__BusinessFileReportSvgrepoComsvg.tsx"
+        },
+        {
+          "id": "fIFysn4DLQ",
+          "name": "DesignEducationPaintingSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/devopsick_com/icons/PlasmicIcon__DesignEducationPaintingSvgrepoComsvg.tsx"
+        },
+        {
+          "id": "setzvz-Nz3",
+          "name": "WindowDevToolsSvgrepoCom1SvgIcon",
+          "moduleFilePath": "plasmic/devopsick_com/icons/PlasmicIcon__WindowDevToolsSvgrepoCom1Svg.tsx"
+        },
+        {
+          "id": "2_2NrvlSmbS",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/devopsick_com/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "3vNcX22TxHe",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/devopsick_com/icons/PlasmicIcon__Icon2.tsx"
+        },
+        {
+          "id": "oFcX_pfmKQX",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/devopsick_com/icons/PlasmicIcon__Icon3.tsx"
+        },
+        {
+          "id": "QnGyV5vxsJr",
+          "name": "Icon4Icon",
+          "moduleFilePath": "plasmic/devopsick_com/icons/PlasmicIcon__Icon4.tsx"
+        },
+        {
+          "id": "0m0OeGMDdZr",
+          "name": "Icon28Icon",
+          "moduleFilePath": "plasmic/devopsick_com/icons/PlasmicIcon__Icon28.tsx"
+        },
+        {
+          "id": "1blTI83nMzN",
+          "name": "Icon5Icon",
+          "moduleFilePath": "plasmic/devopsick_com/icons/PlasmicIcon__Icon5.tsx"
+        },
+        {
+          "id": "-bDAojU6EO3",
+          "name": "Icon6Icon",
+          "moduleFilePath": "plasmic/devopsick_com/icons/PlasmicIcon__Icon6.tsx"
+        },
+        {
+          "id": "yOCWvqqlBF",
+          "name": "ServerShieldSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/devopsick_com/icons/PlasmicIcon__ServerShieldSvgrepoComsvg.tsx"
+        },
+        {
+          "id": "piVZgJEwju",
+          "name": "ResearchSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/devopsick_com/icons/PlasmicIcon__ResearchSvgrepoComsvg.tsx"
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "id": "Q11J3rNFi",
+          "name": "Logopit_1677881020485.png",
+          "filePath": "../public/plasmic/devopsick_com/images/logopit1677881020485Png.png"
+        },
+        {
+          "id": "J-LvM0RU1HB",
+          "name": "image",
+          "filePath": "../public/plasmic/devopsick_com/images/image.svg"
+        },
+        {
+          "id": "FBE1hUh1m",
+          "name": "rings.svg",
+          "filePath": "../public/plasmic/devopsick_com/images/ringssvg.svg"
+        }
+      ],
       "indirect": false,
       "globalContextsFilePath": "plasmic/devopsick_com/PlasmicGlobalContextsProvider.tsx",
       "codeComponents": [
@@ -173,6 +612,44 @@
           "id": "mULqSE9wOP",
           "name": "Fetcher",
           "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ]
+    },
+    {
+      "projectId": "7nJ7UcFmq9UzB6eXfC5z4a",
+      "projectApiToken": "uZp069FLSLNVA2dpWnqC3BUaj3flvtNBNXt6e1b67rm4Uh6lGHgYJ65FCBXlOFTB5KDW7RmmOxIAzgHYCg",
+      "projectName": "plasmic-nav",
+      "version": "0.10.0",
+      "cssFilePath": "plasmic/plasmic_nav/plasmic_plasmic_nav.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "jGx9tiKJoex",
+          "name": "NavigationBar",
+          "componentImportPath": "@plasmicpkgs/plasmic-nav"
+        }
+      ]
+    },
+    {
+      "projectId": "58GpZjZCWTaJ8AUhpCwt2K",
+      "projectApiToken": "DIkcfhBwjMCJSjcxfBkMuy4NImyytq5EWylxVcpS9t9EpdhnPQuBgBGxmk00AB1itMFa1KXTxOKnrjN2PN9nlA",
+      "projectName": "react-awesome-reveal",
+      "version": "3.10.0",
+      "cssFilePath": "plasmic/react_awesome_reveal/plasmic_react_awesome_reveal.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "R6s1FdhksG",
+          "name": "Reveal",
+          "componentImportPath": "@plasmicpkgs/react-awesome-reveal"
         }
       ]
     }
@@ -191,6 +668,6 @@
   "nextjsConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.231",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.231/dist/plasmic.schema.json"
+  "cliVersion": "0.1.239",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.239/dist/plasmic.schema.json"
 }
